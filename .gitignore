@@ -1,5 +1,5 @@
-/springboot_mybatisplus_mysql/SpringbootTemplate/logs/log_debug.log
-/springboot_mybatisplus_mysql/SpringbootTemplate/logs/log_error.log
-/springboot_mybatisplus_mysql/SpringbootTemplate/logs/log_info.log
-/springboot_mybatisplus_mysql/SpringbootTemplate/logs/log_trace.log
-/springboot_mybatisplus_mysql/SpringbootTemplate/logs/log_warn.log
+*.log
+.idea/*
+springboot_mybatisplus_mysql/SpringbootTemplate/target/*
+/springboot_mybatisplus_mysql/SpringbootTemplate/target/test-classes/com/icbc/itsp/springboottemplate/MyBatisGeneratorRun.class
+/springboot_mybatisplus_mysql/SpringbootTemplate/SpringbootTemplate.iml
