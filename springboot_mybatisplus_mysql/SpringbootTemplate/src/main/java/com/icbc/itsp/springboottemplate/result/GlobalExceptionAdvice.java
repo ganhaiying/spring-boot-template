@@ -1,7 +1,6 @@
 package com.icbc.itsp.springboottemplate.result;
 
 import com.alibaba.fastjson.JSONException;
-import jdk.nashorn.internal.runtime.regexp.joni.exception.JOniException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.util.StringUtils;
