@@ -48,6 +48,12 @@
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
     </dependency>
+    <!--分页助手，要使用1.2.12以上的版本，低版本的会导致报错-->
+    <dependency>
+      <groupId>com.github.pagehelper</groupId>
+      <artifactId>pagehelper-spring-boot-starter</artifactId>
+      <version>1.2.13</version>
+    </dependency>
     <!--热发布jar包-->
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -87,11 +93,13 @@
       <artifactId>httpclient</artifactId>
     </dependency>
 
+    <!--lang工具包-->
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
       <version>3.9</version>
     </dependency>
+    <!--aop切面-->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-aop</artifactId>
